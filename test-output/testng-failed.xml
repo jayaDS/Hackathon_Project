@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="stepDefinations.hooks">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stepDefinations.hooks -->
+      <class name="stepDefinations.FormValidation">
+        <methods>
+          <include name="user_clicks_on_for_corporates"/>
+          <include name="user_enters_all_non_email_fields_in_the_form"/>
+          <include name="user_present_on_practo_com_website_three"/>
+          <include name="user_enters_invalid_email"/>
+          <include name="close"/>
+          <include name="validate_if_schedule_a_demo_button_is_disabled"/>
+          <include name="user_clicks_on_health_and_wellness_plan"/>
+          <include name="user_clicks_on_schedule_a_demo_button"/>
+          <include name="user_enters_valid_email"/>
+          <include name="validate_if_thank_you_message_is_displayed"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stepDefinations.FormValidation -->
+      <class name="stepDefinations.DisplayDoctors">
+        <methods>
+          <include name="user_present_on_practo_com_website_one"/>
+          <include name="user_clicks_on_cardiologist_option"/>
+          <include name="user_enters_city_bangalore_in_seachbox"/>
+          <include name="user_enters_medical_specialist_cardiologist_in_seachbox"/>
+          <include name="user_applies_filters"/>
+          <include name="close"/>
+          <include name="user_clicks_on_bangalore_option"/>
+          <include name="user_displays_the_first_five_doctors"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stepDefinations.DisplayDoctors -->
+      <class name="stepDefinations.DisplaySurgeries">
+        <methods>
+          <include name="user_present_on_practo_com_website"/>
+          <include name="user_displays_the_surgeries_list"/>
+          <include name="close"/>
+          <include name="user_clicks_on_surgeries"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- stepDefinations.DisplaySurgeries -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

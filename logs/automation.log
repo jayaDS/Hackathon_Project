@@ -1,0 +1,33 @@
+17:48:02.805 [main] INFO  basepackage.basic - User displays the Surgeries list
+17:48:03.861 [main] INFO  basepackage.basic - *****User present on practo.com Website_three**********
+17:48:04.736 [main] INFO  basepackage.basic - User clicks on For Corporates
+17:48:44.232 [main] INFO  basepackage.basic - *****User present on practo.com Website_one**********
+17:48:45.956 [main] INFO  basepackage.basic - User enters city Bangalore in seachbox
+17:48:47.375 [main] INFO  basepackage.basic - User clicks on Bangalore option
+17:48:48.351 [main] INFO  basepackage.basic - User enters Medical specialist Cardiologist in seachbox
+17:48:53.044 [main] INFO  basepackage.basic - User clicks on Cardiologist option
+17:48:58.313 [main] INFO  basepackage.basic - User applies filters
+17:49:01.317 [main] INFO  basepackage.basic - *****User present on practo.com Website_two**********
+17:49:04.386 [main] INFO  basepackage.basic - User clicks on Surgeries
+17:49:16.801 [main] INFO  basepackage.basic - User displays the Surgeries list
+17:49:17.818 [main] INFO  basepackage.basic - *****User present on practo.com Website_three**********
+17:49:19.017 [main] INFO  basepackage.basic - User clicks on For Corporates
+17:52:47.472 [main] INFO  basepackage.basic - *****User present on practo.com Website_one**********
+17:52:49.318 [main] INFO  basepackage.basic - User enters city Bangalore in seachbox
+17:52:50.177 [main] INFO  basepackage.basic - User clicks on Bangalore option
+17:52:51.078 [main] INFO  basepackage.basic - User enters Medical specialist Cardiologist in seachbox
+17:52:55.792 [main] INFO  basepackage.basic - User clicks on Cardiologist option
+17:53:01.764 [main] INFO  basepackage.basic - User applies filters
+17:53:09.975 [main] INFO  basepackage.basic - User displays the first five Doctors
+17:53:10.599 [main] INFO  basepackage.basic - *****User present on practo.com Website_two**********
+17:53:14.064 [main] INFO  basepackage.basic - User clicks on Surgeries
+17:53:18.995 [main] INFO  basepackage.basic - User displays the Surgeries list
+17:53:19.595 [main] INFO  basepackage.basic - *****User present on practo.com Website_three**********
+17:53:20.323 [main] INFO  basepackage.basic - User clicks on For Corporates
+17:53:38.404 [main] INFO  basepackage.basic - User clicks on Health and Wellness Plan
+17:53:40.425 [main] INFO  basepackage.basic - User enters all non-email fields in the form
+17:53:41.010 [main] INFO  basepackage.basic - User enters invalid email
+17:53:42.139 [main] INFO  basepackage.basic - validate if Schedule a Demo button is disabled
+17:53:43.063 [main] INFO  basepackage.basic - User enters valid email
+17:53:44.687 [main] INFO  basepackage.basic - User clicks on Schedule a Demo button
+17:53:46.052 [main] INFO  basepackage.basic - validate if Thank You message is displayed
